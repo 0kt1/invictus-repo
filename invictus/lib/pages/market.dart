@@ -25,17 +25,8 @@ class _MarketState extends State<Market> {
   String selectedCommodity = "Pulses";
   String quoteDate = "14/02/2025";
   bool isLoading = false;
-  bool isShow = false;
 
-  final List<Map<String, dynamic>> marketData = [
-    {"name": "Moong (green)", "wholesale": 8730, "retail": 100},
-    {"name": "Gram", "wholesale": 7490, "retail": 85},
-    {"name": "Urad (black)", "wholesale": 8900, "retail": 102},
-    {"name": "Urd Dal Kali (Shilkeed)", "wholesale": 10220, "retail": 125},
-    {"name": "Gram lentils", "wholesale": 8430, "retail": 95},
-    {"name": "Peas white", "wholesale": 4730, "retail": 54},
-    {"name": "Pea lentils", "wholesale": 4980, "retail": 58},
-  ];
+  final List<Map<String, dynamic>> marketData = [];
 
   List<String> districts = [
     "Agra",
@@ -111,29 +102,13 @@ class _MarketState extends State<Market> {
     "Shamli"
   ];
 
-  Map<String, List<String>> mandis = {
-    "Lucknow": ["Lucknow Mandi", "Mohanlalganj Mandi"]
-  };
+  Map<String, List<String>> mandis = {};
 
-  List<String> commodity = [
-    "Oil Seeds",
-    "Pulses",
-    "Vegetables",
-    "Fruits",
-    "Leather",
-    "Animal Meat"
-  ];
+  List<String> commodity = [];
 
   void _searchMarketData() {
     setState(() {
       isLoading = true;
-    });
-
-    Future.delayed(Duration(seconds: 4), () {
-      setState(() {
-        isLoading = false;
-        isShow = true;
-      });
     });
   }
 
@@ -167,7 +142,7 @@ class _MarketState extends State<Market> {
                 DropdownButtonFormField(
                   decoration: InputDecoration(labelText: "Mandi"),
                   // value: selectedMandi,
-                  items: ["Lucknow Mandi", "Mohanlalganj Mandi"]?.map((String value) {
+                  items: mandis[selectedDistrict]?.map((String value) {
                     return DropdownMenuItem(
                       value: value,
                       child: Text(value),
@@ -222,8 +197,7 @@ class _MarketState extends State<Market> {
             SizedBox(height: 20),
             isLoading
                 ? Center(child: CircularProgressIndicator())
-                : isShow
-                    ? Expanded(
+                : Expanded(
                         child: SingleChildScrollView(
                           scrollDirection: Axis.horizontal,
                           child: DataTable(
@@ -265,8 +239,7 @@ class _MarketState extends State<Market> {
                                 .toList(),
                           ),
                         ),
-                      )
-                    : Container(),
+                      ),
           ],
         ),
       ),
