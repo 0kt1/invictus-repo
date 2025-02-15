@@ -108,11 +108,6 @@ flutter run  # Run the app on a connected device or emulator
 
 [![Watch the Demo]](https://drive.google.com/file/d/1xzdxhbvq--dpTp5qZfWNoDL1zddFSWHf/view?usp=sharing)
 
-<video width="100%" controls>
-  <source src="demo/Invictus.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ## 👥 Team Members
 
 - *Anmol Upadhyay*
