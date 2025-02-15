@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="KrishiMitra_logo/field (1).png" alt="Invictus - Krishi Mitra width="200">
+  <img src="KrishiMitra_logo/field (1).png" alt="Invictus - Krishi Mitra width="100">
 </p>
 
 <h1 align="center">INVICTUS - KRISHI MITRA</h1>
