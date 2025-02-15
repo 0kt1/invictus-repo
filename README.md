@@ -19,6 +19,22 @@
 - 🌾 *Farmers Community* – A platform where farmers can interact, share knowledge, and support each other.
 
 ## Screenshots
+  ![Alt text](ss/1.jpg)
+  ![Alt text](ss/2.jpg)
+  ![Alt text](ss/3.jpg)
+  ![Alt text](ss/4.jpg)
+  ![Alt text](ss/5.jpg)
+  ![Alt text](ss/6.jpg)
+  ![Alt text](ss/7.jpg)
+  ![Alt text](ss/8.jpg)
+  ![Alt text](ss/9.jpg)
+  ![Alt text](ss/10.jpg)
+  ![Alt text](ss/11.jpg)
+  ![Alt text](ss/12.jpg)
+  ![Alt text](ss/13.jpg)
+  ![Alt text](ss/14.jpg)
+  ![Alt text](ss/15.jpg)
+  ![Alt text](ss/16.jpg)
 
 ## 🛠 Tech Stack
 
@@ -29,32 +45,28 @@
 
 ## 📂 Project Structure
 
-bash
+```bash
 invictus/
 ├── android/                # Android-specific code
 ├── assets/                 # Images, icons, and other assets
 ├── ios/                    # iOS-specific code
 ├── lib/                    # Main application code
 │   ├── main.dart           # Entry point of the application
-│   ├── screens/            # UI screens
-│   ├── models/             # Data models
-│   ├── services/           # Backend communication and business logic
-│   └── widgets/            # Reusable UI components
+│   ├── pages/              # UI screens
 ├── test/                   # Unit and widget tests
-├── backend/                # Backend API code
-│   ├── app.py              # Entry point for FastAPI application
+backend/                # Backend API code
+│   ├── main.py              # Entry point for FastAPI 
 │   ├── models/             # Database models
 │   ├── routes/             # API routes
-│   └── ml_models/          # Machine learning model files
 ├── pubspec.yaml            # Flutter project configuration
 └── README.md               # Project documentation
-
+```
 
 ## ⚡ Installation and Setup
 
 ### 1️⃣ Clone the repository
 bash
-git clone https://github.com/0kt1/invictus.git
+git clone https://github.com/0kt1/invictus-repo
 cd invictus
 
 
@@ -68,11 +80,11 @@ uvicorn app:app --reload  # Starts FastAPI server at http://127.0.0.1:8000
 
 
 ### 3️⃣ Set up the Frontend
-bash
-cd ../lib
+```bash
+cd invictus
 flutter pub get
 flutter run  # Run the app on a connected device or emulator
-
+```
 
 ## 📌 Usage
 
