@@ -104,6 +104,15 @@ flutter run  # Run the app on a connected device or emulator
 - *Access Government Schemes*: Explore relevant schemes for farmers.
 - *Stay Updated*: Receive real-time weather and market price alerts.
 
+### 🎥 Demo Video
+
+[![Watch the Demo](ss/demo-thumbnail.jpg)](https://your-video-link-here)
+
+<video width="100%" controls>
+  <source src="demo/Invictus.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## 👥 Team Members
 
 - *Anmol Upadhyay*
