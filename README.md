@@ -76,21 +76,21 @@ backend/                # Backend API code
 ## ⚡ Installation and Setup
 
 ### 1️⃣ Clone the repository
-'''
+```
 bash
 git clone https://github.com/0kt1/invictus-repo
 cd invictus
-'''
+```
 
 ### 2️⃣ Set up the Backend
-'''
+```
 bash
 cd backend
 python3 -m venv venv
 source env/bin/activate  # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload  # Starts FastAPI server at http://127.0.0.1:8000
-'''
+```
 
 ### 3️⃣ Set up the Frontend
 ```bash
