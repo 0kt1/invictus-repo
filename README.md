@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="KrishiMitra_logo/krishimitra_logo.png" alt="Invictus - Krishi Mitra width="200">
+  <img src="KrishiMitra_logo/field (1).png" alt="Invictus - Krishi Mitra" width="200">
 </p>
 
 <h1 align="center">INVICTUS - KRISHI MITRA</h1>
@@ -18,23 +18,34 @@
 - 📋 *Complete Crop Plan Generation* – Generates an optimized crop plan based on soil quality, weather conditions, and market trends.
 - 🌾 *Farmers Community* – A platform where farmers can interact, share knowledge, and support each other.
 
-## Screenshots
-  ![Alt text](ss/1.jpg)
-  ![Alt text](ss/2.jpg)
-  ![Alt text](ss/3.jpg)
-  ![Alt text](ss/4.jpg)
-  ![Alt text](ss/5.jpg)
-  ![Alt text](ss/6.jpg)
-  ![Alt text](ss/7.jpg)
-  ![Alt text](ss/8.jpg)
-  ![Alt text](ss/9.jpg)
-  ![Alt text](ss/10.jpg)
-  ![Alt text](ss/11.jpg)
-  ![Alt text](ss/12.jpg)
-  ![Alt text](ss/13.jpg)
-  ![Alt text](ss/14.jpg)
-  ![Alt text](ss/15.jpg)
-  ![Alt text](ss/16.jpg)
+## 📷 Screenshots
+
+<table>
+  <tr>
+    <td><img src="ss/1.jpg" width="200"></td>
+    <td><img src="ss/2.jpg" width="200"></td>
+    <td><img src="ss/3.jpg" width="200"></td>
+    <td><img src="ss/4.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="ss/5.jpg" width="200"></td>
+    <td><img src="ss/6.jpg" width="200"></td>
+    <td><img src="ss/7.jpg" width="200"></td>
+    <td><img src="ss/8.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="ss/9.jpg" width="200"></td>
+    <td><img src="ss/10.jpg" width="200"></td>
+    <td><img src="ss/11.jpg" width="200"></td>
+    <td><img src="ss/12.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="ss/13.jpg" width="200"></td>
+    <td><img src="ss/14.jpg" width="200"></td>
+    <td><img src="ss/15.jpg" width="200"></td>
+    <td><img src="ss/16.jpg" width="200"></td>
+  </tr>
+</table>
 
 ## 🛠 Tech Stack
 
@@ -65,19 +76,19 @@ backend/                # Backend API code
 ## ⚡ Installation and Setup
 
 ### 1️⃣ Clone the repository
-bash
+```bash
 git clone https://github.com/0kt1/invictus-repo
 cd invictus
-
+```
 
 ### 2️⃣ Set up the Backend
-bash
+```bash
 cd backend
 python3 -m venv venv
 source env/bin/activate  # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload  # Starts FastAPI server at http://127.0.0.1:8000
-
+```
 
 ### 3️⃣ Set up the Frontend
 ```bash
@@ -93,6 +104,10 @@ flutter run  # Run the app on a connected device or emulator
 - *Access Government Schemes*: Explore relevant schemes for farmers.
 - *Stay Updated*: Receive real-time weather and market price alerts.
 
+### 🎥 Demo Video
+
+[![Watch the Demo]](https://drive.google.com/file/d/1xzdxhbvq--dpTp5qZfWNoDL1zddFSWHf/view?usp=sharing)
+
 ## 👥 Team Members
 
 - *Anmol Upadhyay*
@@ -103,21 +118,21 @@ flutter run  # Run the app on a connected device or emulator
 
 ## 🤝 Contributing
 
-1. *Fork the repository*.
-2. *Create a new branch*:
-   bash
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
    git checkout -b feature/your_feature_name
-   
-3. *Make your changes*.
-4. *Commit your changes*:
-   bash
+   ```
+3. **Make your changes**.
+4. **Commit your changes**:
+   ```bash
    git commit -m "Add your commit message here"
-   
-5. *Push to your branch*:
-   bash
+   ```
+5. **Push to your branch**:
+   ```bash
    git push origin feature/your_feature_name
-   
-6. *Create a pull request*.
+   ```
+6. **Create a pull request**.
 
 ## 📜 License
 
