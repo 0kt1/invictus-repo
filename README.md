@@ -106,7 +106,7 @@ flutter run  # Run the app on a connected device or emulator
 
 ### 🎥 Demo Video
 
-[![Watch the Demo](ss/demo-thumbnail.jpg)](https://your-video-link-here)
+[![Watch the Demo]](https://drive.google.com/file/d/1xzdxhbvq--dpTp5qZfWNoDL1zddFSWHf/view?usp=sharing)
 
 <video width="100%" controls>
   <source src="demo/Invictus.mp4" type="video/mp4">
