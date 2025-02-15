@@ -66,8 +66,7 @@ invictus/               # Frontend code
 │   ├── pages/              # UI screens
 ├── test/                   # Unit and widget tests
 backend/                # Backend API code
-│   ├── main.py              # Entry point for FastAPI 
-│   ├── models/             # Database models
+│   ├── main.py              # Entry point for FastAPI
 │   ├── routes/             # API routes
 ├── pubspec.yaml            # Flutter project configuration
 └── README.md               # Project documentation
@@ -78,7 +77,7 @@ backend/                # Backend API code
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/0kt1/invictus-repo
-cd invictus
+cd invictus-repo
 ```
 
 ### 2️⃣ Set up the Backend
