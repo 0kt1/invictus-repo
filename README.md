@@ -18,23 +18,34 @@
 - 📋 *Complete Crop Plan Generation* – Generates an optimized crop plan based on soil quality, weather conditions, and market trends.
 - 🌾 *Farmers Community* – A platform where farmers can interact, share knowledge, and support each other.
 
-## Screenshots
-  ![Alt text](ss/1.jpg)
-  ![Alt text](ss/2.jpg)
-  ![Alt text](ss/3.jpg)
-  ![Alt text](ss/4.jpg)
-  ![Alt text](ss/5.jpg)
-  ![Alt text](ss/6.jpg)
-  ![Alt text](ss/7.jpg)
-  ![Alt text](ss/8.jpg)
-  ![Alt text](ss/9.jpg)
-  ![Alt text](ss/10.jpg)
-  ![Alt text](ss/11.jpg)
-  ![Alt text](ss/12.jpg)
-  ![Alt text](ss/13.jpg)
-  ![Alt text](ss/14.jpg)
-  ![Alt text](ss/15.jpg)
-  ![Alt text](ss/16.jpg)
+## 📷 Screenshots
+
+<table>
+  <tr>
+    <td><img src="ss/1.jpg" width="200"></td>
+    <td><img src="ss/2.jpg" width="200"></td>
+    <td><img src="ss/3.jpg" width="200"></td>
+    <td><img src="ss/4.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="ss/5.jpg" width="200"></td>
+    <td><img src="ss/6.jpg" width="200"></td>
+    <td><img src="ss/7.jpg" width="200"></td>
+    <td><img src="ss/8.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="ss/9.jpg" width="200"></td>
+    <td><img src="ss/10.jpg" width="200"></td>
+    <td><img src="ss/11.jpg" width="200"></td>
+    <td><img src="ss/12.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="ss/13.jpg" width="200"></td>
+    <td><img src="ss/14.jpg" width="200"></td>
+    <td><img src="ss/15.jpg" width="200"></td>
+    <td><img src="ss/16.jpg" width="200"></td>
+  </tr>
+</table>
 
 ## 🛠 Tech Stack
 
