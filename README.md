@@ -57,7 +57,7 @@
 ## 📂 Project Structure
 
 ```bash
-invictus/
+invictus/               # Frontend code
 ├── android/                # Android-specific code
 ├── assets/                 # Images, icons, and other assets
 ├── ios/                    # iOS-specific code
