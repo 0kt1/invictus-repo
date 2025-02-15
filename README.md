@@ -76,19 +76,21 @@ backend/                # Backend API code
 ## ⚡ Installation and Setup
 
 ### 1️⃣ Clone the repository
+'''
 bash
 git clone https://github.com/0kt1/invictus-repo
 cd invictus
-
+'''
 
 ### 2️⃣ Set up the Backend
+'''
 bash
 cd backend
 python3 -m venv venv
 source env/bin/activate  # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload  # Starts FastAPI server at http://127.0.0.1:8000
-
+'''
 
 ### 3️⃣ Set up the Frontend
 ```bash
@@ -118,21 +120,21 @@ flutter run  # Run the app on a connected device or emulator
 
 ## 🤝 Contributing
 
-1. *Fork the repository*.
-2. *Create a new branch*:
-   bash
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
    git checkout -b feature/your_feature_name
-   
-3. *Make your changes*.
-4. *Commit your changes*:
-   bash
+   ```
+3. **Make your changes**.
+4. **Commit your changes**:
+   ```bash
    git commit -m "Add your commit message here"
-   
-5. *Push to your branch*:
-   bash
+   ```
+5. **Push to your branch**:
+   ```bash
    git push origin feature/your_feature_name
-   
-6. *Create a pull request*.
+   ```
+6. **Create a pull request**.
 
 ## 📜 License
 
